@@ -1,5 +1,16 @@
+Method to estimate the rate of fold-back inversion artefacts in ONT sequencing data. 
+
+## Python dependencies
+```
+argparse
+os
+sys
+pysam
+Cigar
+```
 
 
+## Usage
 ```
 # A) Parse arguments
 sample_id=$1
